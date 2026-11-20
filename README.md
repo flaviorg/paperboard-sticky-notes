@@ -9,6 +9,8 @@ Draw notes straight onto the board, then move, resize, recolor and edit them, or
 ![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-Vitest-6E9F18?logo=vitest&logoColor=white)
 
+**▶ Live demo: [paperboard-sticky-notes.vercel.app](https://paperboard-sticky-notes.vercel.app/)**
+
 ![Paperboard demo: drawing, editing, moving, resizing, recoloring and deleting notes](docs/screenshots/demo.gif)
 
 ## Contents
@@ -47,6 +49,8 @@ The board also works from the keyboard. Tab moves between controls. On a focused
 | ![A note faded over the highlighted trash zone](docs/screenshots/delete.png) | ![The color palette open on a note](docs/screenshots/colors.png) |
 
 ## Getting started
+
+To try the app without installing anything, open the [live demo](https://paperboard-sticky-notes.vercel.app/). On the hosted version the mock API runs as a serverless function, so its in-memory copy can be lost at any time. The board is still restored from `localStorage`.
 
 **Requirements:** Node.js 22.12 or newer, and [pnpm](https://pnpm.io/installation) (run `corepack enable` to get it).
 
